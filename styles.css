@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    background-color: #1b1b32;
+  }
+  
+  h1{
+    color: #f5f6f7;
+    margin-top: 30px;
+  }
+  
+  main {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana;
+  }
+  
+  #container {
+    margin: 20px auto;
+    width: 325px;
+    background-color:#f5f6f7;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 10px 10px rgba(223, 220, 220, 0.75)
+  }
+  
+  #search-input {
+    margin: 15px 10px;
+    padding: 10px;
+  }
+  
+  #search-button {
+    padding: 14px 0;
+    width: 80px;
+    border-radius: 20px;
+    background-color: #7f21ab;
+    border: none;
+    color: #f5f6f7;
+  }
+  
+  #top-container{
+    width: 95%;
+    background-color: #f0f1f7;
+    padding: 10px;
+    min-height: 200px;
+  }
+  
+  table {
+    margin: 10px auto;
+    width: 100%;
+  }
+  
+  tr{
+    background-color:#7f21ab;
+    text-align: center;
+  }
+  
+  td,th {
+    padding: 8px;
+    color: #f5f6f7;
+  }
+  
+  #top-container{
+    text-align: left;
+    min-height: 200px;
+  }
+  
+  #name-id, #size, #types{
+    margin: 10px 5px;
+  }
+  
+  #div-avatar{
+    height: 180px;
+    text-align: center;
+  }
+  #sprite{
+    width: 180px;
+  }
+  
+  #types{
+    display: flex;
+    gap: 5px;
+  }
+  
+  .type{
+    padding: 10px 25px;
+    font-size: 0.7rem;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .fire{
+    background-color: #ff6f52;
+  }
+  
+  .fairy {
+      background-color: #ed99ed;
+  }
+  
+  .psychic {
+      background-color: #ff66a3;
+  }
+  
+  .grass {
+      background-color: #78cc55;
+  }
+  
+  .poison {
+      background-color: #c68bb7;
+  }
+  
+  .flying {
+      background-color: #8899ff;
+  }
+  
+  .water {
+      background-color: #42a1ff;
+  }
+  
+  .bug {
+      background-color: #aabb23;
+  }
+  
+  .normal {
+      background-color: #b7b7aa;
+  }
+  
+  .electric {
+      background-color: #fecc33;
+  }
+  
+  .ground {
+      background-color: #dfba52;
+  }
